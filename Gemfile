@@ -30,11 +30,13 @@ gem "thruster", require: false
 
 
 group :development, :test do
+  gem "brakeman", require: false
   gem "bullet"
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "factory_bot_rails"
   gem "faker"
   gem "rspec-rails"
+  gem "rubocop-rails-omakase", require: false
   gem "standard"
 end
 

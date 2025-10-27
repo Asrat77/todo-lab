@@ -11,5 +11,4 @@ class Task < ApplicationRecord
     in_progress: 1,
     completed: 2
   }
-
 end
